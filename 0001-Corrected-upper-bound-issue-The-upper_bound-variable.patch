@@ -1,0 +1,26 @@
+From a30c12942059b6e870ea4423fe2aec8be0e8b807 Mon Sep 17 00:00:00 2001
+From: Ricki Angel <angelricki@outlook.com>
+Date: Sun, 1 Sep 2024 03:18:23 +0100
+Subject: [PATCH]  Corrected upper bound issue: The upper_bound variable was
+ named upper_'band'
+
+---
+ src/Graph.tsx | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/src/Graph.tsx b/src/Graph.tsx
+index 94d344d..d5dd883 100644
+--- a/src/Graph.tsx
++++ b/src/Graph.tsx
+@@ -29,7 +29,7 @@ class Graph extends Component<IProps, {}> {
+       price_def: 'float',
+       ratio: 'float',
+       timestamp: 'date',
+-      upper_band: 'float',
++      upper_bound: 'float',
+       lower_bound: 'float',
+       trigger_alert: 'float',
+     };
+-- 
+2.39.3 (Apple Git-146)
+
