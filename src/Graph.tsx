@@ -29,7 +29,7 @@ class Graph extends Component<IProps, {}> {
       price_def: 'float',
       ratio: 'float',
       timestamp: 'date',
-      upper_band: 'float',
+      upper_bound: 'float',
       lower_bound: 'float',
       trigger_alert: 'float',
     };
